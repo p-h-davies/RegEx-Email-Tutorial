@@ -73,8 +73,14 @@ Looking back at our demo regex, the grouping occurs within the following parenth
 
 ### Greedy and Lazy Match
 
+Greedy matches are matches which seek to match patterns as many times as possible. Quantifiers, in their nature, are all greedy. However, this can be reversed, making them lazy, but placing a '?' quantifier after the initial quantifier, which will make them seek out as few matches as possible.
+
+In our example regex, the quantifiers are greedy, as there is no '?' placed in front of the {6} or {3} quantifiers.
 
 
 ## Author
+My GitHub username is p-h-davies, and you can view my profile here: https://github.com/p-h-davies/.
+<br>
+To get in contact with me, please email me here: philippadavies603@gmail.com.
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
